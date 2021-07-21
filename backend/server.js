@@ -24,6 +24,6 @@ app.use("/",(req,res)=>{
     res.json("HellooklnHH123");
 });
 
-app.listen(5000,()=>{
-    console.log("hurrah 5000");
+app.listen(1500,()=>{
+    console.log("hurrah 1500");
 })
