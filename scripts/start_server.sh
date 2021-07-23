@@ -1,5 +1,5 @@
-c=$(ls -l /var/www/html/ | grep "^d" | wc -l)
-arr1=(/var/www/html/*)
+c=$(ls -l /var/www/testing1/ | grep "^d" | wc -l)
+arr1=(/var/www/testing1/*)
 echo ${arr1[@]}
 total=${#arr1[@]}
 for(( i=0; i<$total; i++ ))
