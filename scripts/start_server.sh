@@ -39,3 +39,5 @@ done
 
 ##uncomment to check for changing the directory
 systemctl restart apache2
+
+pm2 updatePM2
